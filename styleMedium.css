@@ -1,0 +1,165 @@
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Name {
+    color: #50c3ff;
+    margin: 250px 50px 0px 50px;
+    font-family: 'Exo', sans-serif;
+    text-shadow: 2px 2px 10px #000000;
+    text-align: center;
+    font-size: 85px;
+    position: relative;
+}
+
+.JobTitle {
+    color: #95dbff;
+    margin: 0px auto;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 2px 2px 10px #000000;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+
+body {
+    background-color: #3e3e3e;
+
+}
+
+.Explore {
+  padding:14px 20px;
+  text-transform: uppercase;
+  background-color: #545454;
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+  border: 3px solid #50c3ff;
+  border-radius: 25px;
+  color:#FFF;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  margin: 20px auto;
+  width: 175px;
+  cursor: pointer;
+  transition: background 0.5s linear;
+  z-index: 1;
+}
+
+.Explore:hover {
+    background-color: black
+}
+.arrowSet{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width: 52px;
+}
+
+.ExploreFlash {
+  padding:14px 20px;
+  text-transform: uppercase;
+  background-color: #545454;
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+  border: 3px solid #ec9fff;
+  border-radius: 25px;
+  color:#FFF;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 175px;
+  cursor: pointer;
+  transition: background 0.5s linear;
+  z-index: -1;
+}
+    
+.arrow {
+position: absolute;
+height: 300px;
+top: 0px;
+z-index: 0;
+
+}
+.arrow1{
+left: 0px;
+}
+.arrow2{
+left: 26px;
+}
+.arrow3{
+left: 50px;
+}
+
+.arrowStem1{
+	width: 3px;
+	background-color: #78ffa1;
+	margin: 0px auto;
+	height: 0px;
+    z-index: 1;
+}
+.arrowStem1-2{
+  height: 3px;
+  background-color: #78ffa1;
+  margin: 0px auto;
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+}
+.arrowStem2{
+	width: 3px;
+	background-color: #fffb95;
+	margin: 0px auto;
+	height: 0px;
+    z-index: 1;
+}
+.arrowStem3{
+	width: 2px;
+	background-color: #ff7676;
+	margin: 0px auto;
+	height: 0px;
+    z-index: 1;
+}
+.arrowStem3-2{
+  height: 2px;
+  background-color: #ff7676;
+  margin: 0px auto;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+}
+.arrowHead1{
+	width: 0px;
+	height: 0px;
+	margin: 0px auto;
+	border-top: 10px solid #78ffa1;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent; 
+	position: relative;
+	z-index: 1;
+}
+
+.arrowHead2{
+	width: 0px;
+	height: 0px;
+	margin: 0px auto;
+	border-top: 10px solid #fffb95;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent; 
+	position: relative;
+	z-index: 1;
+}
+    
+.arrowHead3{
+	width: 0px;
+	height: 0px;
+	margin: 0px auto;
+	border-top: 10px solid #ff7676;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent; 
+	position: relative;
+	z-index: 1;
+}
+
